@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Priyank Dubey</title>
+  <meta name="description" content="Priyank Dubey: Ph.D. student at Texas A&M University working on design, optimization, and planning of space-based sensing systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Source+Code+Pro:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome icons (SVG + JS build) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/js/all.min.js"></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar" aria-label="Main">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Priyank Dubey</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><i class="fas fa-map"></i> Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" data-view="home">Home</a></li>
+      <li><a href="#publications" data-view="publications">Publications</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container">
+
+  <!-- ================= HOME ================= -->
+  <div class="view" id="view-home">
+    <div class="home-grid">
+
+      <!-- Profile card -->
+      <aside class="card profile">
+        <img class="portrait" src="assets/images/photos/Priyank.png" alt="Portrait of Priyank Dubey">
+        <div class="name">Priyank Dubey</div>
+        <div class="positions">
+          Ph.D. Student<br>
+          Department of Aerospace Engineering<br>
+          Texas A&amp;M University<br>
+          College Station, TX USA
+        </div>
+        <div class="email">priyank_dubey(at)tamu.edu</div>
+        <div class="social">
+          <a href="mailto:priyank_dubey@tamu.edu" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=papOKswAAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="fab fa-google-scholar"></i></a>
+          <a href="https://www.linkedin.com/in/priyank-dubey/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </aside>
+
+      <div class="home-main">
+
+        <!-- About -->
+        <section class="card about">
+          <h3>About Me</h3>
+          <div class="bio">
+            <p>
+              I am a third year Ph.D. student in Systems Engineering at <a href="https://www.tamu.edu" target="_blank" rel="noopener">Texas A&amp;M University</a>,
+              working in the <a href="https://www.selva-research.com/" target="_blank" rel="noopener">SEAK Lab</a> with Dr. Daniel Selva.
+              My research focuses on turning intractable space systems design problems into deployable tools, in the broad area of <em>design, optimization, and planning</em> of space-based sensing systems.
+            </p>
+            <p>
+              Space missions are increasingly built from many assets that must be chosen and operated together:
+              which orbits to populate, which instruments to fly, and where each one points over time.
+              Formulating this as one joint problem is the right model, but at realistic scale it grows with
+              the candidate catalog, the planning horizon, and the demand, and exact solvers stop finding
+              useful solutions. One option is to simplify the model until it solves, and accept designs that
+              no longer reflect the mission. The other is to be smart about it: find the structure that
+              already exists in the problem and use it to shrink the search, while keeping the original
+              formulation intact. My research follows this second path through two tightly coupled questions:
+            </p>
+            <ul>
+              <li>
+                <strong><em>Structure:</em></strong> How do we represent large design-and-planning problems
+                so that the structure inside them, such as which candidates are redundant and which are
+                uniquely complementary, becomes explicit?
+              </li>
+              <li>
+                <strong><em>Scale:</em></strong> How do we use that structure to reduce the problem to a
+                size solvers can handle, and keep it responsive to failures and new events, while still
+                solving the original planning problem?
+              </li>
+            </ul>
+            <p>
+              The result is <strong>structure-aware algorithm design</strong>, built for real mission scales
+              and tested on real problems, from cislunar space situational awareness to multi-mission Earth observation.
+            </p>
+            <!-- <p>
+              My longer-term goal is <em>Quantronautics</em>: redesigning space systems around quantum rather than classical logic,
+              so that sensing, computation, and communication are derived from quantum-native principles instead of retrofitted.
+              Before Texas A&amp;M, I completed a BS-MS in Physics and Computer Science at IISER Berhampur, wrote my master's thesis
+              at the Université du Luxembourg, and interned at NASA's Jet Propulsion Laboratory.
+            </p> -->
+          </div>
+        </section>
+
+        <!-- Education / Experience / Awards / Patents / Service -->
+        <section class="card list-card cv-card">
+          <h6 class="card-head"><i class="fas fa-graduation-cap"></i> Education</h6>
+          <ul class="entries">
+              <li class="entry"><i class="icon fas fa-graduation-cap"></i><div class="what"><div class="title">Texas A&amp;M University</div><div class="sub">Ph.D. in Systems Engineering, Department of Aerospace Engineering<br>Topic: Quantum Algorithms and Sensing for Space Systems<br>Advisor: Dr. Daniel Selva, SEAK Lab</div></div><div class="when">2024 - 2029 (exp.)</div></li>
+              <li class="entry"><i class="icon fas fa-graduation-cap"></i><div class="what"><div class="title">Université du Luxembourg</div><div class="sub">Master's thesis, SpaSys Group<br>Topic: Applied Quantum Computing and Information<br>Advisor: Dr. Andreas Hein; Co-advisor: Dr. Rahul Sharma</div></div><div class="when">May 2023 - Jul. 2024</div></li>
+              <li class="entry"><i class="icon fas fa-graduation-cap"></i><div class="what"><div class="title">IISER Berhampur</div><div class="sub">BS-MS in Physics and Computer Science <br>Indian Institute of Science Education and Research (IISER Berhampur)</div></div><div class="when">2019 - 2024</div></li>
+          </ul>
+        </section>
+
+        <section class="card list-card cv-card">
+          <h6 class="card-head"><i class="fas fa-briefcase"></i> Experience</h6>
+          <ul class="entries">
+              <li class="entry"><i class="icon fas fa-satellite-dish"></i><div class="what"><div class="title">NASA Jet Propulsion Laboratory (JPL)</div><div class="sub">Intern, SDMC Group &middot; Quantum Algorithm for Deep Space Network Scheduling</div></div><div class="when">Apr. - Sep. 2025</div></li>
+              <li class="entry"><i class="icon fas fa-chalkboard-teacher"></i><div class="what"><div class="title">Texas A&amp;M University</div><div class="sub">Graduate Teaching / Research Assistant</div></div><div class="when">2024 - present</div></li>
+              <li class="entry"><i class="icon fas fa-rocket"></i><div class="what"><div class="title">SPAIDER Space S.à r.l., Luxembourg</div><div class="sub">Scientific Advisor</div></div><div class="when">2024</div></li>
+              <li class="entry"><i class="icon fas fa-flask"></i><div class="what"><div class="title">IIT Kanpur</div><div class="sub">Student Research Associate</div></div><div class="when">2022 - 2023</div></li>
+              <li class="entry"><i class="icon fas fa-robot"></i><div class="what"><div class="title">BHS Robotics, India</div><div class="sub">Engineering Consultant</div></div><div class="when">2022 - 2023</div></li>
+              <li class="entry"><i class="icon fas fa-microphone"></i><div class="what"><div class="title">Centre for AI and Robotics, DRDO, Bangalore</div><div class="sub">Research Intern &middot; Speech recognition for Indian-English accents</div></div><div class="when">Jan. - May 2022</div></li>
+          </ul>
+        </section>
+
+        <div class="cv-pair">
+        <section class="card list-card cv-card">
+          <h6 class="card-head"><i class="fas fa-award"></i> Honors &amp; Awards</h6>
+          <ul class="entries">
+              <li class="entry plain"><div class="what">NSF Student Travel Grant</div><div class="when">2026</div></li>
+              <li class="entry plain"><div class="what">Office of Naval Research &amp; US CLIVAR Travel Grant</div><div class="when">2026</div></li>
+              <li class="entry plain"><div class="what">International Astronautical Congress Travel Grant</div><div class="when">2023, 2024</div></li>
+              <li class="entry plain"><div class="what">Foresight Fellowship: SpaceTech, Foresight Institute</div><div class="when">2023</div></li>
+              <li class="entry plain"><div class="what">Research Fellowship, Université du Luxembourg</div><div class="when">2023</div></li>
+              <li class="entry plain"><div class="what">DRDO Research Fellowship, Government of India</div><div class="when">2022</div></li>
+          </ul>
+        </section>
+        <section class="card list-card cv-card">
+          <h6 class="card-head"><i class="fas fa-hands-helping"></i> Service &amp; Outreach</h6>
+          <ul class="entries">
+              <li class="entry plain"><div class="what">Breakout Session Lead, Quantum Algorithms for Optimization, US CLIVAR Workshop (ONR &amp; UCAR)</div><div class="when">2026</div></li>
+              <li class="entry plain"><div class="what">Science Outreach Mentor, Camp SOAR</div><div class="when">2026</div></li>
+              <li class="entry plain"><div class="what">Reviewer, AIAA Journal of Aerospace Information Systems</div><div class="when"></div></li>
+              <li class="entry plain"><div class="what">Founder &amp; Technical Lead, Q-Luxembourg Chapter</div><div class="when"></div></li>
+              <li class="entry plain"><div class="what">Representative, Science and Career Development Council, IISER Berhampur</div><div class="when">2021 - 2023</div></li>
+          </ul>
+        </section>
+        </div>
+
+        <section class="card list-card cv-card">
+          <h6 class="card-head"><i class="fas fa-lightbulb"></i> Patents</h6>
+          <ul class="entries">
+              <li class="entry plain"><div class="what">Fault-Tolerant Attitude Control Architecture for Spacecraft Actuator Failures<br><span class="muted">with Dipak Kumar Giri</span></div><div class="when">No. 433058</div></li>
+          </ul>
+        </section>
+
+        <!-- News (filled from js/data.js) -->
+        <section class="card list-card">
+          <h6 class="card-head"><i class="fas fa-rss"></i> News</h6>
+          <div class="news-body" id="news-list"></div>
+        </section>
+
+        <!-- Selected publications (filled from js/data.js) -->
+        <section class="card list-card">
+          <h6 class="card-head"><i class="fas fa-star"></i> Selected Publications <a href="#publications">(view all <i class="fas fa-angle-double-right"></i>)</a></h6>
+          <div id="selected-pubs"></div>
+          <h6 class="card-foot"><a href="#publications">All publications <i class="fas fa-angle-double-right"></i></a></h6>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= RESEARCH ================= -->
+  <div class="view" id="view-research" hidden>
+    <section class="research-group">
+      <h2>Research</h2>
+      <div class="research-grid">
+        <article class="card wide">
+          <h4>Quantum methods that leave the simulator</h4>
+          <hr>
+          <p>
+            A large body of theory exists across quantum algorithms, sensing, and information. Much of its value depends on
+            whether it can be engineered for problems at real scale. That gap between theory and deployability is where I work.
+          </p>
+          <p>
+            I use <strong>space systems</strong> as the near-term application domain. Limited onboard resources, harsh operating
+            environments, and the need for precise sensing and autonomous operation in deep space make them a demanding testbed
+            for finding where near-term quantum methods deliver practical value. My long-term vision, which I call
+            <em>Quantronautics</em>, is to design space systems from quantum principles rather than adding quantum components
+            to classical designs.
+          </p>
+        </article>
+
+        <article class="card">
+          <h5><i class="fas fa-satellite-dish"></i>Quantum Optimization for Real-World Systems</h5>
+          <hr>
+          <p>
+            I build quantum and hybrid quantum-classical solvers (Simulated Quantum Annealing, QAOA, VQE) by translating
+            real combinatorial and continuous problems into quantum-compatible formulations.
+          </p>
+          <p>
+            At <strong>NASA JPL</strong> I developed a hybrid Simulated Quantum Annealing solver in Julia, based on a
+            Suzuki-Trotter path-integral formulation, for <strong>Deep Space Network scheduling</strong>. The DSN coordinates
+            tracking and communication for more than 40 deep-space missions and is often oversubscribed. The solver produced
+            schedules with more satisfied requests, faster than MILP, machine-learning, and prior approaches. A journal article
+            is in preparation.
+          </p>
+          <p class="small muted">Also: QAOA/VQE for satellite routing in debris collection and on-orbit servicing.</p>
+        </article>
+
+        <article class="card">
+          <h5><i class="fas fa-layer-group"></i>Renormalization Group Methods for NISQ Tractability</h5>
+          <hr>
+          <p>
+            Real problems often exceed the qubit count and connectivity of today's hardware. I use
+            <strong>Renormalization Group</strong> theory from statistical physics to find which degrees of freedom matter for a
+            target observable and integrate out the rest. The result is a compact, NISQ-compatible model that keeps classical
+            solution quality.
+          </p>
+          <p>
+            The coarse-graining also reveals structure on its own, such as coordination timescales and network vulnerabilities,
+            independent of the quantum solver used afterwards.
+          </p>
+          <p class="small muted">Applied to cislunar space situational awareness, constellation design, and coverage optimization.</p>
+        </article>
+
+        <article class="card">
+          <h5><i class="fas fa-project-diagram"></i>Quantum Walk Algorithms for Graph Inference</h5>
+          <hr>
+          <p>
+            Quantum walks spread amplitude along a graph's own topology. Paths aligned with the structure interfere
+            constructively and irrelevant paths cancel, so arrival probabilities encode both local and global structure.
+          </p>
+          <p>
+            This led to <strong>QSearchNet</strong>, which combines topology-aware quantum walks with Grover's amplitude
+            amplification for link prediction and network-evolution forecasting. I later extended it with adaptive quantum
+            teleportation for sparse networks, capturing long-range correlations while preserving local structure.
+          </p>
+        </article>
+
+        <article class="card">
+          <h5><i class="fas fa-broadcast-tower"></i>Multi-Node Quantum-Classical Sensing Networks</h5>
+          <hr>
+          <p>
+            In <strong>QuaSense</strong> I study how Rydberg-state quantum sensors can work alongside existing classical space
+            infrastructure, through three architectures: locally enhanced arrays, distributed entangled sensing, and
+            capability-based data fusion.
+          </p>
+          <p>
+            The goal is an actionable framework for designing, tasking, and tuning a mixed network of quantum and classical
+            nodes toward a single shared mission objective, for Earth observation and space situational awareness.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="research-group">
+      <h2>Featured: QSearchNet (IEEE QCE 2026)</h2>
+      <div class="research-grid">
+        <article class="card wide">
+          <h5>Link prediction under hard negatives</h5>
+          <p class="small muted">
+            HeaRT evaluation corrupts each true edge by swapping one endpoint and keeps the corruptions that classical heuristics
+            score highest, so a method must separate real links from near-misses. MRR (%) shown; best per column in bold.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Method</th><th>Cora</th><th>Citeseer</th><th>Pubmed</th><th>ogbl-collab</th><th>ogbl-ddi</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Common Neighbors</td><td>9.78</td><td>8.42</td><td>2.28</td><td>4.20</td><td>6.71</td></tr>
+                <tr><td>Adamic-Adar</td><td>11.91</td><td>10.82</td><td>2.63</td><td>5.07</td><td>6.97</td></tr>
+                <tr><td>Resource Allocation</td><td>11.81</td><td>10.84</td><td>2.47</td><td>6.29</td><td>8.70</td></tr>
+                <tr><td>Shortest Path</td><td>5.04</td><td>5.83</td><td>0.86</td><td>2.66</td><td>0.00</td></tr>
+                <tr><td>Katz</td><td>11.41</td><td>11.19</td><td>3.01</td><td>6.31</td><td>6.71</td></tr>
+                <tr class="best"><td>QSearchNet</td><td>13.01</td><td>15.89</td><td>8.11</td><td>7.21</td><td>10.53</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="small">
+            On Pubmed, QSearchNet's MRR is 2.7&times; the best classical heuristic. One formula recovers four classical
+            heuristics as special cases, and the oracle suppresses noise from irrelevant paths exponentially.
+          </p>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <div class="view" id="view-publications" hidden>
+    <div class="pubs-grid">
+      <div id="pubs-by-year"></div>
+      <nav class="year-nav" id="year-nav" aria-label="Jump to year"></nav>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <i id="last-updated">Last updated: Oct 2026</i>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
